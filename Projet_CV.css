@@ -1,0 +1,296 @@
+/* css seulement pour la colonne de gauche */
+
+div#colonne1 {
+	float: left;
+	width: 30%;
+	background:rgba(255,193,7 ,1);
+}
+
+/* arrondie pour la photo de profil */
+.pdp_retouche{
+
+    overflow:hidden;
+    -webkit-border-radius:80px;
+    -moz-border-radius:80px;
+    border-radius:80px;
+    width:150px;
+    height:150px;
+    margin-left: 75px;
+    margin-top: 30px;
+    align-items: center;
+}
+
+/* barre noir 1 */
+.CONT{
+    color:rgba(255,193,7 ,1) ;
+    background:rgba(33,33,33 ,1);
+    text-align: center;
+    height: 30px;
+
+}
+
+.contact{
+
+    margin-left: 40px;
+    line-height: 0.12em;
+}
+
+/* barre noir 2 */
+.about{
+
+    color:rgba(255,193,7 ,1) ;
+    background:rgba(33,33,33 ,1);
+    text-align: center;
+    height: 30px;
+    vertical-align: text-bottom;
+
+}
+
+.about_me{
+
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 280px;
+}
+
+/* barre noir 3 */
+.Loisir{
+
+    color:rgba(255,193,7 ,1) ;
+    background:rgba(33,33,33 ,1);
+    text-align: center;
+    height: 30px;
+    margin-bottom: 150px;
+}
+
+
+.coco{
+    margin-top: 18%;
+    display: flex;
+
+}
+
+/* couleur des 3 items du bas */
+.color1{
+
+    color: #000;
+    flex: 1 1 auto;
+}
+
+.color2{
+
+    color: #000;
+    flex: 1 1 auto;
+}
+
+.color3{
+
+    color: #000;
+    flex: 1 1 auto;
+}
+
+/* Css seulement pour la colonne 2 */ 
+
+div#colonne2 {
+
+	float: right;
+	width: 63%;
+	margin-left: 5%;
+}
+
+.titre1{
+
+    
+    font-size: 1.2em;
+
+}
+
+.titre2{
+
+
+    font-size: 0.6em;
+    margin-bottom: 80px;
+
+}
+
+.coti{
+
+    color:rgba(255,193,7 ,1) ;
+}
+
+/* décoration des block titre de la colonne de droite */
+
+.bloc_titre1{
+
+    text-decoration: underline;
+    text-decoration-color: rgba(255,193,7 ,1);
+    color: #000;
+    font-size: 1.2em;
+}
+
+/*les deux premiers containeurs */
+
+div#container1 {
+
+    display: flex;
+    
+}
+
+div#container2{
+
+    display: flex;
+
+}
+
+/* premier container qui se répéte ensuite */
+
+.date1{
+   
+    float: left;
+    width: 25%;
+    margin-bottom: 10px;
+
+}
+
+.forma1{
+
+    float: right;
+    width: 65%;
+    margin-right: 10%;
+    
+    
+}
+
+/* deuxième container */
+
+.date2{
+   
+    float: left;
+    width: 25%;
+
+}
+
+.forma2{
+
+    float: right;
+    width: 65%;
+    margin-right: 10%;
+    
+}
+
+/* décoration du deuxième block titre de la colonne de droite */
+
+
+.title_block1{
+
+    text-decoration: underline;
+    text-decoration-color: rgba(255,193,7 ,1);
+    color: #000 ;
+    font-size: 1.2em;
+    
+}
+
+/* les 3 autres containers */
+
+div#container3 {
+
+    display: flex;
+    
+}
+
+div#container4 {
+
+    display: flex;
+    
+}
+
+div#container5 {
+
+    display: flex;
+    
+}
+
+/* container 3 */
+
+.date3{
+   
+    float: left;
+    width: 25%;
+
+}
+
+.forma3{
+
+    float: right;
+    width: 65%;
+    margin-right: 10%;
+    line-height: 1.6em;
+    
+}
+
+/* container 4 */
+
+.date4{
+   
+    float: left;
+    width: 25%;
+
+}
+
+.forma4{
+
+    float: right;
+    width: 52%;
+    margin-right: 10%;
+    line-height: 1.6em;
+    
+}
+
+/* container 5 */
+
+.date5{
+   
+    float: left;
+    width: 25%;
+
+}
+
+.forma5{
+
+    float: right;
+    width: 65%;
+    margin-right: 10%;
+    line-height: 1.6em;
+    
+}
+
+/* dernier block titre */
+
+.title_block2{
+
+    text-decoration: underline;
+    text-decoration-color: rgba(255,193,7 ,1);
+    color: #000;
+    font-size: 1.2em;
+    
+}
+
+/* dernier block */
+div#container_fin{
+
+    margin-top: 30px;
+    display: flex;
+}
+
+.reco1{
+
+    width: 50%;
+    line-height: 0.8em;
+}
+
+.reco2{
+
+    width: 50%;
+    line-height: 0.8em;
+}
+/* fin jusqu'à 975px */ 
