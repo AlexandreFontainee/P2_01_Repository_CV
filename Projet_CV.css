@@ -7,7 +7,7 @@ div#main1 {
 }
 
 /* arrondie pour la photo de profil */
-.pdp_retouche{
+.pdp_retouche {
 
     overflow:hidden;
     -webkit-border-radius:80px;
