@@ -1,9 +1,9 @@
 /* css seulement pour la colonne de gauche */
-
-div#colonne1 {
+div#main1 {
 	float: left;
 	width: 30%;
 	background:rgba(255,193,7 ,1);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
 
 /* arrondie pour la photo de profil */
@@ -20,136 +20,103 @@ div#colonne1 {
     align-items: center;
 }
 
-/* barre noir 1 */
-.CONT{
-    color:rgba(255,193,7 ,1) ;
-    background:rgba(33,33,33 ,1);
-    text-align: center;
-    height: 30px;
-
-}
-
 .contact{
 
     margin-left: 40px;
+    overflow-wrap: break-word;
     line-height: 0.12em;
-}
-
-/* barre noir 2 */
-.about{
-
-    color:rgba(255,193,7 ,1) ;
-    background:rgba(33,33,33 ,1);
-    text-align: center;
-    height: 30px;
-    vertical-align: text-bottom;
-
+    margin-bottom: 40px;
 }
 
 .about_me{
 
     margin-left: 40px;
     margin-right: 40px;
-    margin-bottom: 280px;
+    margin-bottom: 170px;
+    line-height: 1.5em;
 }
 
-/* barre noir 3 */
-.Loisir{
+/* Les 3 barres noirs du main */
+.Barre{
 
     color:rgba(255,193,7 ,1) ;
     background:rgba(33,33,33 ,1);
     text-align: center;
     height: 30px;
-    margin-bottom: 150px;
+    flex: auto;
+    
 }
 
+.items_bot{
 
-.coco{
-    margin-top: 18%;
     display: flex;
-
+    height: 90px;
+    margin-top: 12%;
+    margin-left: 7%;
 }
 
 /* couleur des 3 items du bas */
-.color1{
+.color{
 
     color: #000;
     flex: 1 1 auto;
+    
 }
 
-.color2{
-
-    color: #000;
-    flex: 1 1 auto;
-}
-
-.color3{
-
-    color: #000;
-    flex: 1 1 auto;
-}
 
 /* Css seulement pour la colonne 2 */ 
 
-div#colonne2 {
+div#main2 {
 
 	float: right;
 	width: 63%;
 	margin-left: 5%;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
 
+/* décoration du grand titre "prénom Nom" */
 .titre1{
 
-    
     font-size: 1.2em;
-
 }
 
 .titre2{
 
-
     font-size: 0.6em;
     margin-bottom: 80px;
-
 }
 
-.coti{
+.déco_titre{
 
     color:rgba(255,193,7 ,1) ;
 }
 
 /* décoration des block titre de la colonne de droite */
+.block_titre{
 
-.bloc_titre1{
-
-    text-decoration: underline;
-    text-decoration-color: rgba(255,193,7 ,1);
-    color: #000;
-    font-size: 1.2em;
+    color: #000 ;
+    font-size: 1.3em;
+    border-bottom: solid 2px rgba(255,193,7 ,1);
+    margin-right: 10%;
 }
-
-/*les deux premiers containeurs */
-
-div#container1 {
+/* décoration des 5 containers identique */
+div#container {
 
     display: flex;
-    
 }
 
-div#container2{
-
-    display: flex;
-
-}
-
-/* premier container qui se répéte ensuite */
-
-.date1{
+.date{
    
     float: left;
     width: 25%;
     margin-bottom: 10px;
+}
 
+.forma{
+
+    float: right;
+    width: 65%;
+    margin-right: 10%;
 }
 
 .forma1{
@@ -157,140 +124,42 @@ div#container2{
     float: right;
     width: 65%;
     margin-right: 10%;
-    
-    
-}
-
-/* deuxième container */
-
-.date2{
-   
-    float: left;
-    width: 25%;
-
-}
-
-.forma2{
-
-    float: right;
-    width: 65%;
-    margin-right: 10%;
-    
-}
-
-/* décoration du deuxième block titre de la colonne de droite */
-
-
-.title_block1{
-
-    text-decoration: underline;
-    text-decoration-color: rgba(255,193,7 ,1);
-    color: #000 ;
-    font-size: 1.2em;
-    
-}
-
-/* les 3 autres containers */
-
-div#container3 {
-
-    display: flex;
-    
-}
-
-div#container4 {
-
-    display: flex;
-    
-}
-
-div#container5 {
-
-    display: flex;
-    
-}
-
-/* container 3 */
-
-.date3{
-   
-    float: left;
-    width: 25%;
-
-}
-
-.forma3{
-
-    float: right;
-    width: 65%;
-    margin-right: 10%;
     line-height: 1.6em;
-    
-}
-
-/* container 4 */
-
-.date4{
-   
-    float: left;
-    width: 25%;
-
-}
-
-.forma4{
-
-    float: right;
-    width: 52%;
-    margin-right: 10%;
-    line-height: 1.6em;
-    
-}
-
-/* container 5 */
-
-.date5{
-   
-    float: left;
-    width: 25%;
-
-}
-
-.forma5{
-
-    float: right;
-    width: 65%;
-    margin-right: 10%;
-    line-height: 1.6em;
-    
-}
-
-/* dernier block titre */
-
-.title_block2{
-
-    text-decoration: underline;
-    text-decoration-color: rgba(255,193,7 ,1);
-    color: #000;
-    font-size: 1.2em;
-    
 }
 
 /* dernier block */
 div#container_fin{
 
-    margin-top: 30px;
     display: flex;
 }
 
-.reco1{
+.reco{
 
     width: 50%;
     line-height: 0.8em;
 }
 
-.reco2{
+@media (min-width:1012px) and (max-width:1439px){
+.global{
 
-    width: 50%;
-    line-height: 0.8em;
+    padding-left: 100px;
+    padding-right: 100px;
 }
-/* fin jusqu'à 975px */ 
+}
+
+@media (min-width:1440px) and (max-width:1799px){
+.global{
+
+    padding-left: 200px;
+    padding-right: 200px;
+
+}
+}
+
+@media (min-width:1800px){
+    .global {
+    
+        padding-left: 300px;
+        padding-right: 300px;
+    }
+    }
